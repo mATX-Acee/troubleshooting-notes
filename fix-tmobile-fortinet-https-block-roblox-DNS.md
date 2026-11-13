@@ -1,11 +1,11 @@
 # Fixing Silent HTTPS & Connection Failures Caused by Upstream ISP "Fortinet" Filtering
 
 ## Context & Symptoms
-While helping my girlfriend troubleshoot why she couldn't launch Roblox on her PC, we ran into a stubborn 3-hour connection issue that even stumped her stepdad (who works formerly as a professional IT technician). 
-
+While helping my girlfriend troubleshoot why she couldn't launch Roblox on her PC, we ran into a stubborn 3-hour connection issue that even stumped her stepdad (who works formerly as a professional IT workplace, not sure which specifically but all I know he had a diploma in High School with a specialization in IT). 
 * **Roblox Launcher:** Failed to connect with a generic connection/HTTPS error (no specific reason given).
 * **Most Web Browsers:** Failed to load the Roblox website without displaying a clear error message.
 * **Opera GX Browser:** Explicitly flagged an HTTPS/SSL certificate error mentioning **Fortinet**, even though Fortinet/FortiClient was **not** installed anywhere on her local Windows machine.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/63d3c01a-4b21-4e03-bdcd-40741eb43c56" />
 
 ## Root Cause
 * **Carrier-Level Network Filtering (T-Mobile):** Testing via a mobile hotspot confirmed her local Windows installation was completely clean and isolated the block to the ISP's upstream infrastructure.
