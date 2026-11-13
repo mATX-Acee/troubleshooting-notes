@@ -1,7 +1,7 @@
 # Fixing Silent HTTPS & Connection Failures Caused by Upstream ISP "Fortinet" Filtering
 
 ## Context & Symptoms
-While helping my girlfriend troubleshoot why she couldn't launch Roblox on her PC, we ran into a stubborn 3-hour connection issue that even stumped her stepdad (who holds an IT technician diploma and previously worked in the IT industry).
+While helping my girlfriend troubleshoot why she couldn't launch Roblox on her PC, we ran into a stubborn 3-hour connection issue that even stumped her stepdad (who holds a specialization in IT diploma and previously worked in the IT industry).
 
 * **Roblox Launcher:** Failed to connect with a generic connection/HTTPS error (no specific reason given).
 * **Most Web Browsers:** Failed to load the Roblox website without displaying a clear error message.
