@@ -24,6 +24,6 @@ While helping my girlfriend troubleshoot why she couldn't launch Roblox on her P
 5. **Local DNS Reset & Manual Override**: Ran `ipconfig /flushdns` in Command Prompt and manually configured IPv4 DNS servers in Windows *(Note: Still intercepted by the ISP's transparent DNS proxy).*
 
 ## Working Solution & Download Link (For anyone who has the same issue :D)
-* Installed and enabled the official [Cloudflare 1.1.1.1 (WARP)](https://one.one) client.
+* Installed and enabled the official [Cloudflare 1.1.1.1 (WARP)](https://one.one.one.one) client.
 * **Why it worked:** Encrypts DNS queries (DoH/DoT) and tunnels traffic securely, preventing the ISP's upstream FortiGate filter from intercepting the TLS handshake or injecting its block certificate—getting her back online immediately!
 * **Startup Tip:** Once you toggle the switch **ON** for the first time, WARP automatically runs in the background whenever Windows starts up.
